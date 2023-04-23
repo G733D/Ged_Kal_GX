@@ -1,0 +1,149 @@
+{
+    "manifest_version": 3,
+    "name": "Ged Kal GX",
+    "description": "Need some Ged? Here it is!",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "G733D"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "light":
+                {
+                    "image": "wallpaper/GedOrb.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc",
+                    "first_frame": "wallpaper/GedOrb.png"
+                },
+                "dark":
+                {
+                    "image": "wallpaper/GedOrb.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc",
+                    "first_frame": "wallpaper/GedOrb.png"
+                }
+            },
+            "background_music":
+            [
+                "music/layer1.mp3"
+            ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/keyboard1.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/keyboard1.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/keyboard1.wav"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/keyboard1.wav"
+                ]
+            },
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/click.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/closetab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/importantclick.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/click.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/click.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/importantclick.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/click.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/closetab.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 21,
+                        "s": 40,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 100,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 36,
+                        "s": 0,
+                        "l": 88
+                    }
+                }
+            }
+        }
+    }
+}
